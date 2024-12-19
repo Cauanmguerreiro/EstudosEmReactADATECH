@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principais-estilos{
+    background-color: black;
+    color: white;
+}
+
+#principais-estilos .paragrafo{
+    font-size: 20px;
+}
+
+/* # para id ||||||||| . para classes */
+
+
+#flexbox .container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between; /*ALINHAMENTO HORIZONTAL*/
+    align-items: center ;  /*ALINHAMENTO VERTICAL*/
+}
+
+
+#flexbox .container .box{
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+}
+
+#flexbox .container .box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 64, 224);
+    
+}
+#grid-layout{
+    margin-top: 20px;
+}
+#grid-layout .container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+}
+
+#grid-layout .container-grid .caixa{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+
+
